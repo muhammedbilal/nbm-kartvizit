@@ -25,7 +25,15 @@ body {
   border-radius: 50%;
   object-fit: contain;
   background: white;
-  margin-bottom: 15px;
+  margin-bottom: -50px;
+}
+
+.info {
+  background: white;
+  color: #333;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .info h2 {
@@ -34,15 +42,14 @@ body {
 }
 
 .title {
-  color: #aaa;
+  color: #666;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 .desc {
   font-size: 14px;
-  color: #ccc;
-  margin-bottom: 20px;
+  color: #444;
 }
 
 .buttons {
@@ -59,16 +66,16 @@ body {
   border-radius: 12px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-weight: bold;
   transition: background 0.3s;
+  gap: 10px;
 }
 
 .btn:hover {
   background: #686868;
 }
 
-.btn span {
-  margin-right: 10px;
+.btn span:first-child {
   font-size: 18px;
 }
